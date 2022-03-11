@@ -19,7 +19,7 @@
 <p>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=evaliu2002&layout=compact&count_private=true&show_icons=true&theme=radical" />
 </p>
-<br>
+<br> <br> <br> <br>
 <p>  
    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=GoogleMapsForUW&theme=radical" />
 </p>
@@ -29,7 +29,7 @@
  <p>
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=pastPortfolioWork&theme=radical" />
  </p>
- <br> <br> <br>
+ <br> <br> <br> <br>
  <p>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&layount=compact&theme=radical" />
 </p> 
