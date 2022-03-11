@@ -14,7 +14,7 @@
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
 <p align="center"> School projects and finals </p>
 
-# 📝 My github activity
+# <p align="center"> 📝 My github activity </p>
 
 <a align="center" href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&theme=radical&langs_count=3" />
