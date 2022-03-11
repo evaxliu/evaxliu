@@ -11,7 +11,9 @@
 - 🌱 I’m currently learning ReactJS/TS and front end developing
 - 📫 How to reach me: liueva2002@gmail.com
 
-# :school: This week, I've been busy 
+# 🏫 This week, I spent my time on school projects and finals
+
+# 📝 My github activity
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&theme=radical&langs_count=3" />
