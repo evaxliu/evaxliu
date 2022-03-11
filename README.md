@@ -16,16 +16,16 @@
 
 # <p align="center"> 📝 My github activity </p>
 
-<a align="center" href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&theme=radical&langs_count=3" />
 </a> 
-<a align="center" href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/anuraghazra/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=evaliu2002&layout=compact&count_private=true&show_icons=true&theme=radical" />
 </a>
 <br>
- <a align="center" href="https://github.com/anuraghazra/github-readme-stats">
+ <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align"center" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=CanadianGiftShop&theme=radical" />
  </a>
-<a align="center" href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/anuraghazra/github-readme-stats">
   <img align"center" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=pastPortfolioWork&theme=radical" />
  </a>
