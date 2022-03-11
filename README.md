@@ -19,12 +19,12 @@
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=evaliu2002&layout=compact&count_private=true&show_icons=true&theme=radical" width="410" />
 </a>
- <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=GoogleMapsForUW&theme=radical" />
- </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&layount=compact&theme=radical" />
 </a> 
+ <a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=GoogleMapsForUW&theme=radical" />
+ </a>
  <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=CanadianGiftShop&theme=radical" />
  </a>
