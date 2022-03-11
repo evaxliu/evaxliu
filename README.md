@@ -11,7 +11,7 @@
 - 🌱 I’m currently learning ReactJS/TS and front end developing
 - 📫 How to reach me: liueva2002@gmail.com
 
-# 🏫 This week, I am spending my time on:
+# <p align="center"> 🏫 This week, I am spending my time on: </p>
 <p align="center"> School projects and finals </p>
 
 # 📝 My github activity
