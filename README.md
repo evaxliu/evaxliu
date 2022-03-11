@@ -1,4 +1,4 @@
-# Hello. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# <p align="center"> Hello. <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> </p>
 
 <!--
 **evaliu2002/evaliu2002** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -12,7 +12,7 @@
 - 📫 How to reach me: liueva2002@gmail.com
 
 # 🏫 This week, I am spending my time on:
-School projects and finals
+<p align="center"> School projects and finals </p>
 
 # 📝 My github activity
 
