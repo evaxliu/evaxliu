@@ -12,7 +12,7 @@
 - 📫 How to reach me: liueva2002@gmail.com
 
 # 🏫 This week, I am spending my time on:
-<p align"center"> School projects and finals </p>
+<p style="text-align:center"> School projects and finals </p>
 
 # 📝 My github activity
 
