@@ -24,7 +24,7 @@
    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=CanadianGiftShop&theme=radical" />
  </p>
   <p href:"https://github.com/evaliu2002/GoogleMapsForUW" >  
-   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=GoogleMapsForUW&theme=radical" />
+   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=evaliu2002&repo=CMapsForUW&theme=radical" />
  </p>
   <br> <br> <br> <br> <br>
  <p href:"https://github.com/evaliu2002/pastPortfolioWork">
