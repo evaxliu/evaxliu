@@ -12,7 +12,7 @@
 <p align="center"> - 📫 How to reach me: liueva2002@gmail.com </p>
 
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
-<p align="center"> School projects and finals </p>
+<p align="center"> Learning Javascript and React </p>
 
 # <p align="center"> 📝 My github activity </p>
 
