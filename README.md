@@ -17,5 +17,5 @@
 # <p align="center"> 📝 My github activity </p>
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&layount=compact&theme=radical&count-private=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&layount=compact&theme=radical&count_private=true" />
 </p> 
