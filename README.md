@@ -8,11 +8,11 @@
  -->
  
 <p align="center"> - 🔭 I’m currently working on my Bachelors in Computer Science at the University of Washington </p>
-<p align="center"> - 🌱 I’m currently working on leetcode and side projects </p>
+<p align="center"> - 🌱 I’m currently working on Research Assisting. </p>
 <p align="center"> - 📫 How to reach me: liueva2002@gmail.com </p>
 
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
-<p align="center"> Check out Pet My Dog repo! </p>
+<p align="center"> Research Assisting. Check out SysBio Antimony! </p>
 
 # <p align="center"> 📝 My github activity </p>
 
