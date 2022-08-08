@@ -13,9 +13,3 @@
 
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
 <p align="center"> Research Assisting. Check out SysBio Antimony! </p>
-
-# <p align="center"> 📝 My github activity </p>
-
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evaliu2002&count_private=true&layount=compact&theme=radical" />
-</p> 
