@@ -10,8 +10,8 @@
 <p align="center"> - 🔭 I’m currently working on my Bachelors in Computer Science at the University of Washington </p>
 <p align="center"> - 🌱 I’m currently working on VSCode Extension Software Developing. </p>
 <p align="center"> - https://reproduciblebiomodels.org/about/#team </p>
-<p align="center"> - 📫 How to reach me: liueva2002@gmail.com </p>
+<p align="center"> - 📫 How to reach me: evaxinerliu@gmail.com </p>
 
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
-<p align="center"> Intro to Database Management and Data Visualization CS Classes </p>
+<p align="center"> Games Capstone! </p>
 <p align="center"> Software Developing. https://github.com/sys-bio/vscode-antimony </p>
