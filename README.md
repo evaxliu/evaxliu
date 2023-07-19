@@ -13,5 +13,4 @@
 <p align="center"> - 📫 How to reach me: evaxinerliu@gmail.com </p>
 
 # <p align="center"> 🏫 This week, I am spending my time on: </p>
-<p align="center"> Games Capstone! Come check out our game! https://holodash.itch.io/holodash </p>
 <p align="center"> Software Developing. https://github.com/sys-bio/vscode-antimony </p>
