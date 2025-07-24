@@ -7,8 +7,7 @@
 <!-- Here are some ideas to get you started:
  -->
  
-<p align="center"> - 🔭 I’m currently working on my Bachelors in Computer Science at the University of Washington Seattle </p>
-<p align="center"> - 🌱 I’m currently working as a Full Stack Dev Intern @ Seattle Children's Hospital. </p>
+<p align="center"> - 🔭 Bachelors in Computer Science at the University of Washington Seattle Paul G. Allen </p>
 
 <p align="center"> - Prev Software Developing @ the Center for Reproducible Biomedical Modeling <p>
 <p align="center"> https://reproduciblebiomodels.org/about/#team </p>
