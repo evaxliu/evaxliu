@@ -9,9 +9,8 @@
 
 <p align="center"> - 📫 How to reach me: evaxliu02@gmail.com </p>
 
-<p align="center">
-  <img
-    src="https://leetcard.jacoblin.cool/LilacPlanet?theme=unicorn&font=Adamina&ext=heatmap"
-    alt="LeetCode Stats"
-  />
-</p>
+<div align="center">
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/LilacPlanet?theme=unicorn&font=Adamina&ext=heatmap)
+
+</div>
