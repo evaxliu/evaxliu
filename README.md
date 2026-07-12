@@ -4,7 +4,7 @@ I'm a software engineer and University of Washington Computer Science graduate. 
 
 I enjoy working on developer tools, research software, and web applications, especially projects that involve technical ownership and unclear requirements.
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/LilacPlanet?theme=unicorn\&font=IBM%20Plex%20Mono\&ext=heatmap)
+[![LeetCode stats](./leetcode-stats.svg)](https://leetcode.com/u/LilacPlanet/)
 
 ## Experience
 
