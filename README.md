@@ -8,7 +8,7 @@ I enjoy working on developer tools, research software, and web applications, esp
 
 ## Experience
 
-### Lead Software Engineer — CRBM
+### Lead Software Engineer — [CRBM](https://reproduciblebiomodels.org/about/#team)
 
 I worked on open-source tools that helped researchers create and edit biological models.
 
@@ -29,4 +29,4 @@ I'm building full-stack projects, taking on freelance work, and looking for soft
 
 ## Links
 
-[CRBM](https://reproduciblebiomodels.org/about/#team) · [Antimony Web Editor](https://github.com/sys-bio/AntimonyEditor) · [VSCode-Antimony](https://github.com/sys-bio/vscode-antimony) · [Email](mailto:evaxliu02@gmail.com)
+[My Website](https://www.lilacplanet.dev/) ·  · [Email](mailto:evaxliu02@gmail.com)
