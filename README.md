@@ -29,4 +29,4 @@ I'm building full-stack projects, taking on freelance work, and looking for soft
 
 ## Links
 
-[My Website](https://www.lilacplanet.dev/) ·  · [Email](mailto:evaxliu02@gmail.com)
+[My Website](https://www.lilacplanet.dev/) · [Email](mailto:evaxliu02@gmail.com)
