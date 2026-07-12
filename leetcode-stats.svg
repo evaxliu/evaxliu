@@ -1,68 +1,66 @@
 <svg width="780" height="500" viewBox="0 0 780 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LeetCode stats for LilacPlanet">
-<rect width="780" height="500" rx="16" fill="#c4b5fd"/>
-<rect x="4" y="0" width="776" height="500" rx="16" fill="#1F1838" stroke="#322851"/>
-<rect x="4" y="0" width="16" height="500" fill="#1F1838" opacity="0"/>
-<text x="32" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="17" font-weight="700" fill="#ffffff">LeetCode stats</text>
-<text x="32" y="63" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#c4b5fd">updated Jul 12, 2026</text>
-<text x="748" y="42" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#c4b5fd">streak <tspan font-weight="700" fill="#ffffff">0</tspan>  ·  best <tspan font-weight="700" fill="#ffffff">10</tspan></text>
-<line x1="32" y1="84" x2="748" y2="84" stroke="#2b2148"/>
-<text x="32" y="118" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">LAST 30 DAYS</text>
-<rect x="32" y="132" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="78" y="132" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="124" y="132" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="170" y="132" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="216" y="132" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="262" y="132" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="32" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="78" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="124" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="170" y="178" width="40" height="40" rx="8" fill="#c4b5fd"/>
-<rect x="216" y="178" width="40" height="40" rx="8" fill="#9a7fd1"/>
-<rect x="262" y="178" width="40" height="40" rx="8" fill="#c4b5fd"/>
-<rect x="32" y="224" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="78" y="224" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="124" y="224" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="170" y="224" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="216" y="224" width="40" height="40" rx="8" fill="#c4b5fd"/>
-<rect x="262" y="224" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="32" y="270" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="78" y="270" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="124" y="270" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="170" y="270" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="216" y="270" width="40" height="40" rx="8" fill="#c4b5fd"/>
-<rect x="262" y="270" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="32" y="316" width="40" height="40" rx="8" fill="#6b539b"/>
-<rect x="78" y="316" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="124" y="316" width="40" height="40" rx="8" fill="#453465"/>
-<rect x="170" y="316" width="40" height="40" rx="8" fill="#9a7fd1"/>
-<rect x="216" y="316" width="40" height="40" rx="8" fill="#211a3c"/>
-<rect x="262" y="316" width="40" height="40" rx="8" fill="#211a3c"/>
-<text x="32" y="388" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">SOLVED</text>
-<text x="32" y="410" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#86efac">Easy</text>
-<text x="374" y="410" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">74</text>
-<rect x="32" y="417" width="342" height="4" rx="2" fill="#2b2148"/>
-<rect x="32" y="417" width="269.2" height="4" rx="2" fill="#86efac"/>
-<text x="32" y="442" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#fcd34d">Medium</text>
-<text x="374" y="442" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">94</text>
-<rect x="32" y="449" width="342" height="4" rx="2" fill="#2b2148"/>
-<rect x="32" y="449" width="342.0" height="4" rx="2" fill="#fcd34d"/>
-<text x="32" y="474" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#fda4af">Hard</text>
-<text x="374" y="474" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">0</text>
-<rect x="32" y="481" width="342" height="4" rx="2" fill="#2b2148"/>
-<text x="406" y="118" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">RECENT SUBMISSIONS</text>
-<rect x="406" y="132" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
-<text x="422" y="157" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Find K Closest Elements</text>
-<text x="422" y="177" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#fcd34d">✗ Time Limit Exceeded<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
-<rect x="406" y="200" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
-<text x="422" y="225" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Minimum Size Subarray Sum</text>
-<text x="422" y="245" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
-<rect x="406" y="268" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
-<text x="422" y="293" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Best Time to Buy and Sell Stock</text>
-<text x="422" y="313" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
-<rect x="406" y="336" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
-<text x="422" y="361" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Subarray Sum Equals K</text>
-<text x="422" y="381" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#fcd34d">✗ Time Limit Exceeded<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
-<rect x="406" y="404" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
-<text x="422" y="429" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Majority Element II</text>
-<text x="422" y="449" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+<style>
+    .cell { animation: fadeIn 0.45s ease both; }
+    .bar {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+    .row { animation: fadeIn 0.45s ease both; }
+    @keyframes fadeIn { from { opacity: 0; } }
+    @keyframes grow { from { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .cell, .bar, .row { animation: none !important; }
+    }
+  </style>
+<rect x="0.5" y="0.5" width="779" height="499" rx="6" fill="#161b22" stroke="#30363d"/>
+<text x="28" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">LeetCode stats</text>
+<text x="28" y="59" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">updated Jul 12, 2026</text>
+<text x="752" y="38" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8b949e">streak <tspan font-weight="700" fill="#a371f7">0</tspan>  ·  best <tspan font-weight="700" fill="#a371f7">10</tspan></text>
+<line x1="28" y1="82" x2="752" y2="82" stroke="#30363d"/>
+<text x="28" y="114" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#a371f7">LAST 30 DAYS</text>
+<rect class="cell" style="animation-delay:0ms" x="28" y="128" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:25ms" x="74" y="128" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:50ms" x="120" y="128" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:75ms" x="166" y="128" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:100ms" x="212" y="128" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:125ms" x="258" y="128" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:150ms" x="28" y="174" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:175ms" x="74" y="174" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:200ms" x="120" y="174" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:225ms" x="166" y="174" width="40" height="40" rx="4" fill="#a371f7"/>
+<rect class="cell" style="animation-delay:250ms" x="212" y="174" width="40" height="40" rx="4" fill="#7c53d6"/>
+<rect class="cell" style="animation-delay:275ms" x="258" y="174" width="40" height="40" rx="4" fill="#a371f7"/>
+<rect class="cell" style="animation-delay:300ms" x="28" y="220" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:325ms" x="74" y="220" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:350ms" x="120" y="220" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:375ms" x="166" y="220" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:400ms" x="212" y="220" width="40" height="40" rx="4" fill="#a371f7"/>
+<rect class="cell" style="animation-delay:425ms" x="258" y="220" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:450ms" x="28" y="266" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:475ms" x="74" y="266" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:500ms" x="120" y="266" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:525ms" x="166" y="266" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:550ms" x="212" y="266" width="40" height="40" rx="4" fill="#a371f7"/>
+<rect class="cell" style="animation-delay:575ms" x="258" y="266" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:600ms" x="28" y="312" width="40" height="40" rx="4" fill="#5936a2"/>
+<rect class="cell" style="animation-delay:625ms" x="74" y="312" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:650ms" x="120" y="312" width="40" height="40" rx="4" fill="#3c2a63"/>
+<rect class="cell" style="animation-delay:675ms" x="166" y="312" width="40" height="40" rx="4" fill="#7c53d6"/>
+<rect class="cell" style="animation-delay:700ms" x="212" y="312" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<rect class="cell" style="animation-delay:725ms" x="258" y="312" width="40" height="40" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<text x="28" y="382" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#a371f7">SOLVED</text>
+<text x="28" y="404" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#3fb950">Easy</text>
+<text x="374" y="404" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">74</text>
+<rect x="28" y="411" width="346" height="4" rx="2" fill="#21262d"/>
+<rect class="bar" style="animation-delay:300ms" x="28" y="411" width="272.4" height="4" rx="2" fill="#3fb950"/>
+<text x="28" y="436" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#d29922">Medium</text>
+<text x="374" y="436" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">94</text>
+<rect x="28" y="443" width="346" height="4" rx="2" fill="#21262d"/>
+<rect class="bar" style="animation-delay:450ms" x="28" y="443" width="346.0" height="4" rx="2" fill="#d29922"/>
+<text x="28" y="468" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f85149">Hard</text>
+<text x="374" y="468" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#e6edf3">0</text>
+<rect x="28" y="475" width="346" height="4" rx="2" fill="#21262d"/>
+<text x="406" y="114" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#a371f7">RECENT SUBMISSIONS</text>
+<g transform="translate(406,128)"><g class="row" style="animation-delay:0ms"><rect x="0.5" y="0.5" width="345" height="57" rx="6" fill="#0d1117" stroke="#30363d"/><text x="16" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Find K Closest Elements</text><text x="16" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#d29922">✗ Time Limit Exceeded<tspan dx="10" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="400" fill="#8b949e">python3 · Jul 10</tspan></text></g><g class="row" style="animation-delay:80ms"><rect x="0.5" y="68.5" width="345" height="57" rx="6" fill="#0d1117" stroke="#30363d"/><text x="16" y="93" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Minimum Size Subarray Sum</text><text x="16" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#3fb950">✓ Accepted<tspan dx="10" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="400" fill="#8b949e">python3 · Jul 10</tspan></text></g><g class="row" style="animation-delay:160ms"><rect x="0.5" y="136.5" width="345" height="57" rx="6" fill="#0d1117" stroke="#30363d"/><text x="16" y="161" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Best Time to Buy and Sell Stock</text><text x="16" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#3fb950">✓ Accepted<tspan dx="10" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="400" fill="#8b949e">python3 · Jul 10</tspan></text></g><g class="row" style="animation-delay:240ms"><rect x="0.5" y="204.5" width="345" height="57" rx="6" fill="#0d1117" stroke="#30363d"/><text x="16" y="229" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Subarray Sum Equals K</text><text x="16" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#d29922">✗ Time Limit Exceeded<tspan dx="10" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="400" fill="#8b949e">python3 · Jul 10</tspan></text></g><g class="row" style="animation-delay:320ms"><rect x="0.5" y="272.5" width="345" height="57" rx="6" fill="#0d1117" stroke="#30363d"/><text x="16" y="297" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e6edf3">Majority Element II</text><text x="16" y="316" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#3fb950">✓ Accepted<tspan dx="10" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-weight="400" fill="#8b949e">python3 · Jul 10</tspan></text></g></g>
 </svg>
