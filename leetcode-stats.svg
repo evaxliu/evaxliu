@@ -1,0 +1,68 @@
+<svg width="780" height="500" viewBox="0 0 780 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LeetCode stats for LilacPlanet">
+<rect width="780" height="500" rx="16" fill="#c4b5fd"/>
+<rect x="4" y="0" width="776" height="500" rx="16" fill="#1F1838" stroke="#322851"/>
+<rect x="4" y="0" width="16" height="500" fill="#1F1838" opacity="0"/>
+<text x="32" y="42" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="17" font-weight="700" fill="#ffffff">LeetCode stats</text>
+<text x="32" y="63" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#c4b5fd">updated Jul 12, 2026</text>
+<text x="748" y="42" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#c4b5fd">streak <tspan font-weight="700" fill="#ffffff">0</tspan>  ·  best <tspan font-weight="700" fill="#ffffff">10</tspan></text>
+<line x1="32" y1="84" x2="748" y2="84" stroke="#2b2148"/>
+<text x="32" y="118" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">LAST 30 DAYS</text>
+<rect x="32" y="132" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="78" y="132" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="124" y="132" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="170" y="132" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="216" y="132" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="262" y="132" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="32" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="78" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="124" y="178" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="170" y="178" width="40" height="40" rx="8" fill="#c4b5fd"/>
+<rect x="216" y="178" width="40" height="40" rx="8" fill="#9a7fd1"/>
+<rect x="262" y="178" width="40" height="40" rx="8" fill="#c4b5fd"/>
+<rect x="32" y="224" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="78" y="224" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="124" y="224" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="170" y="224" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="216" y="224" width="40" height="40" rx="8" fill="#c4b5fd"/>
+<rect x="262" y="224" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="32" y="270" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="78" y="270" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="124" y="270" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="170" y="270" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="216" y="270" width="40" height="40" rx="8" fill="#c4b5fd"/>
+<rect x="262" y="270" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="32" y="316" width="40" height="40" rx="8" fill="#6b539b"/>
+<rect x="78" y="316" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="124" y="316" width="40" height="40" rx="8" fill="#453465"/>
+<rect x="170" y="316" width="40" height="40" rx="8" fill="#9a7fd1"/>
+<rect x="216" y="316" width="40" height="40" rx="8" fill="#211a3c"/>
+<rect x="262" y="316" width="40" height="40" rx="8" fill="#211a3c"/>
+<text x="32" y="388" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">SOLVED</text>
+<text x="32" y="410" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#86efac">Easy</text>
+<text x="374" y="410" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">74</text>
+<rect x="32" y="417" width="342" height="4" rx="2" fill="#2b2148"/>
+<rect x="32" y="417" width="269.2" height="4" rx="2" fill="#86efac"/>
+<text x="32" y="442" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#fcd34d">Medium</text>
+<text x="374" y="442" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">94</text>
+<rect x="32" y="449" width="342" height="4" rx="2" fill="#2b2148"/>
+<rect x="32" y="449" width="342.0" height="4" rx="2" fill="#fcd34d"/>
+<text x="32" y="474" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#fda4af">Hard</text>
+<text x="374" y="474" text-anchor="end" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="13" font-weight="700" fill="#ffffff">0</text>
+<rect x="32" y="481" width="342" height="4" rx="2" fill="#2b2148"/>
+<text x="406" y="118" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1.5" fill="#c4b5fd">RECENT SUBMISSIONS</text>
+<rect x="406" y="132" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
+<text x="422" y="157" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Find K Closest Elements</text>
+<text x="422" y="177" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#fcd34d">✗ Time Limit Exceeded<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+<rect x="406" y="200" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
+<text x="422" y="225" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Minimum Size Subarray Sum</text>
+<text x="422" y="245" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+<rect x="406" y="268" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
+<text x="422" y="293" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Best Time to Buy and Sell Stock</text>
+<text x="422" y="313" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+<rect x="406" y="336" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
+<text x="422" y="361" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Subarray Sum Equals K</text>
+<text x="422" y="381" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#fcd34d">✗ Time Limit Exceeded<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+<rect x="406" y="404" width="342" height="58" rx="12" fill="none" stroke="#2b2148"/>
+<text x="422" y="429" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="14" font-weight="700" fill="#ffffff">Majority Element II</text>
+<text x="422" y="449" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif" font-size="11" font-weight="600" fill="#86efac">✓ Accepted<tspan dx="10" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-weight="400" fill="rgba(196,181,253,0.6)">python3 · Jul 10</tspan></text>
+</svg>
