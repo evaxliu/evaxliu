@@ -3,6 +3,9 @@
  * Generates leetcode-stats.svg for a GitHub profile README.
  * Zero dependencies — requires Node 18+ (built-in fetch).
  *
+ * GitHub-dark themed with purple accents. Animations are pure CSS inside the
+ * SVG (entrance fades, growing bars), which GitHub's image proxy renders fine.
+ *
  * Usage: node scripts/generate-leetcode-svg.mjs [output-path]
  */
 
@@ -15,23 +18,24 @@ const OUTPUT_PATH = process.argv[2] ?? "leetcode-stats.svg";
 
 const LEETCODE_GRAPHQL_URL = "https://leetcode.com/graphql/";
 
-// ---- theme (matches lilacplanet.dev) ----------------------------------------
+// ---- theme (GitHub dark + purple accents) ------------------------------------
 const theme = {
-  card: "#1F1838",
-  cardBorder: "#322851",
-  accent: "#c4b5fd", // violet-300
-  divider: "#2b2148",
-  white: "#ffffff",
-  violet: "#c4b5fd",
-  violetDim: "rgba(196,181,253,0.6)",
-  green: "#86efac", // green-300
-  amber: "#fcd34d", // amber-300
-  rose: "#fda4af", // rose-300
-  activity: ["#211a3c", "#453465", "#6b539b", "#9a7fd1", "#c4b5fd"],
+  card: "#161b22",
+  cardBorder: "#30363d",
+  divider: "#30363d",
+  text: "#e6edf3",
+  muted: "#8b949e",
+  purple: "#a371f7",
+  green: "#3fb950",
+  amber: "#d29922",
+  red: "#f85149",
+  activity: ["#0d1117", "#3c2a63", "#5936a2", "#7c53d6", "#a371f7"],
 };
 
-const sans = "'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif";
-const mono = "'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace";
+const sans =
+  "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif";
+const mono =
+  "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace";
 
 // ---- LeetCode queries (same as the website) ---------------------------------
 const SUBMIT_STATS_QUERY = `
@@ -270,14 +274,36 @@ function formatDate(timestamp) {
 function renderSvg(stats) {
   const width = 780;
   const height = 500;
+
+  // submissions geometry
+  const colX = 406;
+  const colWidth = 346;
+  const listY = 128;
+  const rowHeight = 58;
+  const rowGap = 10;
+  const rowPitch = rowHeight + rowGap;
+
+  const css = `
+    .cell { animation: fadeIn 0.45s ease both; }
+    .bar {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    }
+    .row { animation: fadeIn 0.45s ease both; }
+    @keyframes fadeIn { from { opacity: 0; } }
+    @keyframes grow { from { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .cell, .bar, .row { animation: none !important; }
+    }
+  `;
+
   const parts = [];
 
   parts.push(
     `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LeetCode stats for ${USERNAME}">`,
-    // card with left accent (border-l-4 look)
-    `<rect width="${width}" height="${height}" rx="16" fill="${theme.accent}"/>`,
-    `<rect x="4" y="0" width="${width - 4}" height="${height}" rx="16" fill="${theme.card}" stroke="${theme.cardBorder}"/>`,
-    `<rect x="4" y="0" width="16" height="${height}" fill="${theme.card}" opacity="0"/>`,
+    `<style>${css}</style>`,
+    `<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="6" fill="${theme.card}" stroke="${theme.cardBorder}"/>`,
   );
 
   // header
@@ -289,17 +315,17 @@ function renderSvg(stats) {
   }).format(new Date());
 
   parts.push(
-    `<text x="32" y="42" font-family="${sans}" font-size="17" font-weight="700" fill="${theme.white}">LeetCode stats</text>`,
-    `<text x="32" y="63" font-family="${mono}" font-size="12" fill="${theme.violet}">updated ${updated}</text>`,
-    `<text x="748" y="42" text-anchor="end" font-family="${mono}" font-size="13" fill="${theme.violet}">streak <tspan font-weight="700" fill="${theme.white}">${stats.currentStreak}</tspan>  ·  best <tspan font-weight="700" fill="${theme.white}">${stats.bestStreak}</tspan></text>`,
-    `<line x1="32" y1="84" x2="748" y2="84" stroke="${theme.divider}"/>`,
+    `<text x="28" y="38" font-family="${sans}" font-size="16" font-weight="600" fill="${theme.text}">LeetCode stats</text>`,
+    `<text x="28" y="59" font-family="${mono}" font-size="12" fill="${theme.muted}">updated ${updated}</text>`,
+    `<text x="752" y="38" text-anchor="end" font-family="${mono}" font-size="13" fill="${theme.muted}">streak <tspan font-weight="700" fill="${theme.purple}">${stats.currentStreak}</tspan>  ·  best <tspan font-weight="700" fill="${theme.purple}">${stats.bestStreak}</tspan></text>`,
+    `<line x1="28" y1="82" x2="752" y2="82" stroke="${theme.divider}"/>`,
   );
 
   const label = (x, y, text) =>
-    `<text x="${x}" y="${y}" font-family="${mono}" font-size="11" font-weight="600" letter-spacing="1.5" fill="${theme.violet}">${text}</text>`;
+    `<text x="${x}" y="${y}" font-family="${mono}" font-size="11" font-weight="600" letter-spacing="1.5" fill="${theme.purple}">${text}</text>`;
 
   // ---- left column: heatmap ----
-  parts.push(label(32, 118, "LAST 30 DAYS"));
+  parts.push(label(28, 114, "LAST 30 DAYS"));
 
   const maximum = Math.max(...stats.activity.map((d) => d.count), 0);
   const cell = 40;
@@ -307,55 +333,64 @@ function renderSvg(stats) {
   stats.activity.forEach((day, index) => {
     const col = index % 6;
     const row = Math.floor(index / 6);
-    const x = 32 + col * (cell + gap);
-    const y = 132 + row * (cell + gap);
-    const fill = theme.activity[getActivityLevel(day.count, maximum)];
-    parts.push(`<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="8" fill="${fill}"/>`);
+    const x = 28 + col * (cell + gap);
+    const y = 128 + row * (cell + gap);
+    const level = getActivityLevel(day.count, maximum);
+    const stroke =
+      level === 0 ? ` stroke="${theme.cardBorder}" stroke-width="1"` : "";
+    parts.push(
+      `<rect class="cell" style="animation-delay:${index * 25}ms" x="${x}" y="${y}" width="${cell}" height="${cell}" rx="4" fill="${theme.activity[level]}"${stroke}/>`,
+    );
   });
 
   // ---- left column: solved bars ----
-  parts.push(label(32, 388, "SOLVED"));
+  parts.push(label(28, 382, "SOLVED"));
 
   const difficultyColors = {
     Easy: theme.green,
     Medium: theme.amber,
-    Hard: theme.rose,
+    Hard: theme.red,
   };
   const maxSolved = Math.max(...Object.values(stats.solved), 1);
-  const barWidth = 342;
+  const barWidth = 346;
 
   Object.entries(stats.solved).forEach(([difficulty, count], index) => {
-    const textY = 410 + index * 32;
+    const textY = 404 + index * 32;
     const barY = textY + 7;
     const fillWidth =
       count === 0 ? 0 : Math.max((count / maxSolved) * barWidth, barWidth * 0.05);
 
     parts.push(
-      `<text x="32" y="${textY}" font-family="${sans}" font-size="13" font-weight="600" fill="${difficultyColors[difficulty]}">${difficulty}</text>`,
-      `<text x="${32 + barWidth}" y="${textY}" text-anchor="end" font-family="${sans}" font-size="13" font-weight="700" fill="${theme.white}">${count}</text>`,
-      `<rect x="32" y="${barY}" width="${barWidth}" height="4" rx="2" fill="${theme.divider}"/>`,
+      `<text x="28" y="${textY}" font-family="${sans}" font-size="13" font-weight="600" fill="${difficultyColors[difficulty]}">${difficulty}</text>`,
+      `<text x="${28 + barWidth}" y="${textY}" text-anchor="end" font-family="${sans}" font-size="13" font-weight="700" fill="${theme.text}">${count}</text>`,
+      `<rect x="28" y="${barY}" width="${barWidth}" height="4" rx="2" fill="#21262d"/>`,
       fillWidth > 0
-        ? `<rect x="32" y="${barY}" width="${fillWidth.toFixed(1)}" height="4" rx="2" fill="${difficultyColors[difficulty]}"/>`
+        ? `<rect class="bar" style="animation-delay:${300 + index * 150}ms" x="28" y="${barY}" width="${fillWidth.toFixed(1)}" height="4" rx="2" fill="${difficultyColors[difficulty]}"/>`
         : "",
     );
   });
 
   // ---- right column: recent submissions ----
-  const colX = 406;
-  parts.push(label(colX, 118, "RECENT SUBMISSIONS"));
+  parts.push(label(colX, 114, "RECENT SUBMISSIONS"));
 
-  stats.recentSubmissions.forEach((submission, index) => {
-    const boxY = 132 + index * 68;
-    const accepted = submission.status === "Accepted";
-    const statusColor = accepted ? theme.green : theme.amber;
-    const icon = accepted ? "✓" : "✗";
+  const rows = stats.recentSubmissions
+    .map((submission, index) => {
+      const y = index * rowPitch;
+      const accepted = submission.status === "Accepted";
+      const statusColor = accepted ? theme.green : theme.amber;
+      const icon = accepted ? "✓" : "✗";
 
-    parts.push(
-      `<rect x="${colX}" y="${boxY}" width="342" height="58" rx="12" fill="none" stroke="${theme.divider}"/>`,
-      `<text x="${colX + 16}" y="${boxY + 25}" font-family="${sans}" font-size="14" font-weight="700" fill="${theme.white}">${escapeXml(truncate(submission.title, 36))}</text>`,
-      `<text x="${colX + 16}" y="${boxY + 45}" font-family="${sans}" font-size="11" font-weight="600" fill="${statusColor}">${icon} ${escapeXml(submission.status)}<tspan dx="10" font-family="${mono}" font-weight="400" fill="${theme.violetDim}">${escapeXml(submission.language)} · ${formatDate(submission.timestamp)}</tspan></text>`,
-    );
-  });
+      return [
+        `<g class="row" style="animation-delay:${index * 80}ms">`,
+        `<rect x="0.5" y="${y + 0.5}" width="${colWidth - 1}" height="${rowHeight - 1}" rx="6" fill="#0d1117" stroke="${theme.cardBorder}"/>`,
+        `<text x="16" y="${y + 25}" font-family="${sans}" font-size="14" font-weight="600" fill="${theme.text}">${escapeXml(truncate(submission.title, 36))}</text>`,
+        `<text x="16" y="${y + 44}" font-family="${sans}" font-size="11" font-weight="600" fill="${statusColor}">${icon} ${escapeXml(submission.status)}<tspan dx="10" font-family="${mono}" font-weight="400" fill="${theme.muted}">${escapeXml(submission.language)} · ${formatDate(submission.timestamp)}</tspan></text>`,
+        `</g>`,
+      ].join("");
+    })
+    .join("");
+
+  parts.push(`<g transform="translate(${colX},${listY})">${rows}</g>`);
 
   parts.push("</svg>");
   return parts.filter(Boolean).join("\n");
