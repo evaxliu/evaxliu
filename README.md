@@ -4,8 +4,6 @@ I'm a software engineer and University of Washington Computer Science graduate w
 
 I previously worked at the Center for Reproducible Biomedical Modeling, where I developed tools used by systems biology researchers. I enjoy solving technical problems, learning new technologies, and building software that is practical and easy to use.
 
-[![LeetCode stats](./leetcode-stats.svg)](https://leetcode.com/u/LilacPlanet/)
-
 ## Experience
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
