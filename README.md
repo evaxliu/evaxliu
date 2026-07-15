@@ -2,8 +2,6 @@
 
 I'm a software engineer and University of Washington Computer Science graduate with experience building research software and web applications.
 
-I previously worked at the Center for Reproducible Biomedical Modeling, where I developed tools used by systems biology researchers. I enjoy solving technical problems, learning new technologies, and building software that is practical and easy to use.
-
 ## Experience
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
@@ -18,15 +16,11 @@ Helped build a VS Code extension that provides language tooling for Antimony mod
 
 ## Skills
 
-**Languages:** TypeScript, JavaScript, Python, SQL
+**Languages:** TypeScript, JavaScript, Python, SQL, HTML, CSS
 
 **Technologies:** React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase
 
 **Tools:** Git, REST APIs, VS Code extensions, pgvector
-
-## Currently
-
-I'm building full-stack projects and looking for entry-level software engineering roles where I can contribute to real products, strengthen my technical skills, and grow as an engineer.
 
 ## Links
 
