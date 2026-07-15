@@ -4,7 +4,7 @@ on:
   repository_dispatch:
     types: [leetcode-submission]
 
-  # Fallback in case the submission trigger fails.
+  # Backup in case the browser trigger fails
   schedule:
     - cron: "2/5 * * * *"
 
@@ -28,10 +28,9 @@ jobs:
         with:
           node-version: 20
 
-      # Gives LeetCode's API time to expose the new submission.
-      - name: Wait for LeetCode
+      - name: Wait for LeetCode to update
         if: github.event_name == 'repository_dispatch'
-        run: sleep 15
+        run: sleep 10
 
       - name: Generate SVG
         run: node scripts/generate-leetcode-svg.mjs leetcode-stats.svg
