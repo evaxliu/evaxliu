@@ -1,7 +1,5 @@
 # Hi, I'm Eva 👋
 
-I'm a software engineer and University of Washington Computer Science graduate with experience building research software and web applications.
-
 ## Experience
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
