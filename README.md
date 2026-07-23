@@ -6,21 +6,17 @@ I'm a software engineer and University of Washington Computer Science graduate w
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
 
-I contributed to open-source tools that helped researchers create and work with biological models.
+I contributed to and led development of open-source tools that helped researchers create and work with biological models.
 
 **[Antimony Web Editor](https://github.com/sys-bio/AntimonyEditor)**
 Led development of a browser-based editor built with React and TypeScript. I worked on feature planning, frontend development, technical decisions, and project coordination.
 
 **[VSCode-Antimony](https://github.com/sys-bio/vscode-antimony)**
-Helped build a VS Code extension that provides language tooling for Antimony models and reduces manual setup. It has reached more than 1,000 users.
+Helped build a VS Code extension that provides language tooling for Antimony models and reduces manual setup. It is now at 6,000+ VSCode Marketplace downloads.
 
 ## Skills
 
-**Languages:** TypeScript, JavaScript, Python, SQL, HTML, CSS
-
-**Technologies:** React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase
-
-**Tools:** Git, REST APIs, VS Code extensions, pgvector
+**Tech Stack:** TypeScript, JavaScript, Python, SQL, HTML, CSS, React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase, Git, REST APIs, VS Code extensions, pgvector
 
 ## Links
 
