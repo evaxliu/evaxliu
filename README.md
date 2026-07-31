@@ -1,7 +1,5 @@
 # Hi, I'm Eva 👋
 
-## Experience
-
 ### Freelance Software Engineer
 I take on select project-based work for businesses, organizations, and early-stage products. I can help with custom websites/web apps, custom software, deployment/SEO and technical troubleshooting. I’m comfortable entering unfamiliar codebases, clarifying requirements, and carrying work from initial planning through launch.
 
