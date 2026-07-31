@@ -21,4 +21,4 @@ Helped build a VS Code extension that provides language tooling for Antimony mod
 
 ## Links
 
-[My Website!](https://www.lilacplanet.dev/) · [Email](mailto:evaxliu02@gmail.com)
+[My Website](https://www.evaxliu.com/) · [Email](mailto:evaxliu02@gmail.com)
