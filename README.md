@@ -2,6 +2,9 @@
 
 ## Experience
 
+### Freelance Software Engineer
+I take on select project-based work for businesses, organizations, and early-stage products. I can help with custom websites/web apps, custom software, deployment/SEO and technical troubleshooting. I’m comfortable entering unfamiliar codebases, clarifying requirements, and carrying work from initial planning through launch.
+
 ### Software Engineer — Center for Reproducible Biomedical Modeling
 
 I contributed to and led development of open-source tools that helped researchers create and work with biological models.
