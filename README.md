@@ -1,6 +1,6 @@
 # Hi, I'm Eva 👋
 
-### Frontend Software Engineer - Z&V Home Construction LLC
+### Frontend Software Engineer — Z&V Home Construction LLC
 I'm currently a software engineer at Z&V Home Construction LLC. I build and maintain the company's production web software, and I own it end to end, from discovery and design through deployment and ongoing development.
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
