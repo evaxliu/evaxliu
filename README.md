@@ -19,4 +19,4 @@ Helped build a VS Code extension that provides language tooling for Antimony mod
 
 ## Links
 
-[My Website](https://www.evaxliu.com/) · [Email](mailto:evaxliu02@gmail.com)
+[Email](mailto:evaxliu02@gmail.com)
