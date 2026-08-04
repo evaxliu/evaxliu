@@ -1,7 +1,7 @@
 # Hi, I'm Eva 👋
 
-### Freelance Software Engineer
-I take on select project-based work for businesses, organizations, and early-stage products. I can help with custom websites/web apps, custom software, deployment/SEO and technical troubleshooting. I’m comfortable entering unfamiliar codebases, clarifying requirements, and carrying work from initial planning through launch.
+### Frontend Software Engineer - Z&V Home Construction LLC
+I'm currently a software engineer at Z&V Home Construction LLC. I build and maintain the company's production web software, and I own it end to end, from discovery and design through deployment and ongoing development.
 
 ### Software Engineer — Center for Reproducible Biomedical Modeling
 
