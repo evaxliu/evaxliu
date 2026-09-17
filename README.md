@@ -17,6 +17,3 @@ I contributed to and led development of open-source tools that helped researcher
 
 ### Skills
 **Tech Stack:** TypeScript, JavaScript, Python, SQL, HTML, CSS, React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase, Git, REST APIs, VS Code extensions, pgvector
-
-### Links
-[Email](mailto:evaxliu02@gmail.com)
