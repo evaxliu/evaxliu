@@ -1,6 +1,7 @@
 # Hi, I'm Eva 👋
 
 Software engineer based in Seattle. UW Computer Science, starting my MS in CS at Georgia Tech this spring.
+**Tech Stack:** TypeScript, JavaScript, Python, SQL, HTML, CSS, React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase, Git, REST APIs, pgvector
 
 ### Contract Software Engineer — Z&V Home Construction LLC
 I build and maintain the company's production web software under contract, owning it end to end from discovery and design through deployment and ongoing development.
@@ -14,6 +15,3 @@ I contributed to and led development of open-source tools that helped researcher
 
 ### Side Projects
 **[Rice Thoughts](https://github.com/evaxliu/rice-thoughts)** — Full-stack blog platform in Next.js and Supabase, with an AI article recommendation system using Voyage AI embeddings, pgvector, and semantic search over a FastAPI backend.
-
-### Skills
-**Tech Stack:** TypeScript, JavaScript, Python, SQL, HTML, CSS, React, Next.js, Tailwind CSS, FastAPI, PostgreSQL, Supabase, Git, REST APIs, VS Code extensions, pgvector
