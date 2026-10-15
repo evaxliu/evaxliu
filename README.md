@@ -12,6 +12,3 @@ I contributed to and led development of open-source tools that helped researcher
 **[Antimony Web Editor](https://github.com/sys-bio/AntimonyEditor)** — Led development of a browser-based editor built with React and TypeScript, covering feature planning, frontend development, technical decisions, and project coordination.
 
 **[VSCode-Antimony](https://github.com/sys-bio/vscode-antimony)** — Helped build a VS Code extension providing language tooling for Antimony models and reducing manual setup. Now at 6,000+ Marketplace downloads.
-
-### Side Projects
-**[Rice Thoughts](https://github.com/evaxliu/rice-thoughts)** — Full-stack blog platform in Next.js and Supabase, with an AI article recommendation system using Voyage AI embeddings, pgvector, and semantic search over a FastAPI backend.
